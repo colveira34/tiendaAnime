@@ -298,11 +298,6 @@ input {
   flex-direction: column;
 }
 
-input {
-  width: 364px;
-  border-radius: 20px;
-}
-
 .ajustarContForm1 {
   display: flex;
   flex-direction: row;
