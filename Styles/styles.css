@@ -1,0 +1,785 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background: hsl(240, 70%, 10%);
+}
+
+.img {
+  width: 150px;
+  height: 80px;
+  padding: 9px;
+  margin-left: 30%;
+}
+
+.header {
+  background: linear-gradient(grey, black);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  flex-wrap: wrap;
+  z-index: 10;
+}
+.navList {
+  display: flex;
+  align-items: center;
+  margin-right: 7%;
+}
+.navBar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  gap: 50px;
+  color: white;
+}
+
+.navList i {
+  display: block;
+}
+
+#toogle-menu:checked ~ .navBar {
+  display: flex;
+}
+#toogle-menu {
+  display: none;
+}
+.navList i {
+  font-size: 40px;
+  display: none;
+}
+
+/****INICIO PRIMERA SECCION****/
+section {
+  text-align: center;
+  padding: 20px;
+}
+
+section h1 {
+  color: white;
+  font-size: 40px;
+  text-decoration: underline;
+  margin: 120px auto;
+  max-width: 100%;
+}
+
+.fondoImagen {
+  position: relative;
+  max-width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+.video-fondo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 45%;
+}
+
+.fondoImagen h1 {
+  position: relative;
+  z-index: 1;
+  color: white;
+  text-align: center;
+}
+
+.contenedor1 {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  bottom: 70px;
+  max-width: 100%;
+  height: auto;
+  gap: 60px;
+  justify-content: center;
+}
+
+.contenedor1 h3 {
+  color: white;
+  line-height: 80px;
+}
+.contenedor1 img {
+  max-width: 100%;
+  height: auto;
+  border: solid 10px white;
+  border-radius: 40px;
+}
+
+div a {
+  color: white;
+  text-decoration: none;
+  background: linear-gradient(grey, red);
+  padding: 8px;
+  border-radius: 15px;
+  font-size: 12px;
+  position: relative;
+  top: 25px;
+}
+
+.contenedor1 a:hover {
+  background: skyblue;
+  color: black;
+}
+
+/***********FIN PRIMERA SECCION**********/
+
+/*******INICIO SEGUNDA SECCION*******/
+
+section h2 {
+  color: white;
+  font-size: 40px;
+  text-decoration: underline;
+  text-align: center;
+  max-width: 100%;
+}
+
+.fondoContenedor {
+  background: linear-gradient(black, grey);
+  max-width: 100%;
+  height: auto;
+  overflow: hidden;
+  position: relative;
+}
+
+.contenedor2 {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+  height: auto;
+  gap: 60px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.contenedor2 p {
+  color: white;
+  width: 70%;
+  line-height: 50px;
+  font-size: 20px;
+}
+
+.contenedor2 img {
+  border: solid 10px white;
+  border-radius: 40px;
+  max-width: 100%;
+}
+
+.cajaPrincipal {
+  background: rgba(255, 255, 255, 0.045);
+  max-width: 100%;
+  height: auto;
+  overflow: hidden;
+  position: relative;
+}
+
+.cajaPrincipal h3 {
+  color: white;
+  font-size: 40px;
+}
+/******FIN SEGUNDA SECCION***/
+/*****INICIO TERCERA SECCION***/
+
+.container3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+}
+
+.foto1 {
+  width: 350px;
+  height: 400px;
+  background-color: grey;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.foto1:hover {
+  background-color: #87e7fa95;
+}
+
+.btnPoster1 {
+  background: linear-gradient(grey, red);
+  width: 20%;
+  font-size: 16px;
+  border-radius: 10px;
+  margin-left: 1px;
+  margin-top: 5px;
+}
+.img3 {
+  width: 350px;
+  height: 300px;
+  border-radius: 20px 20px 0 0;
+}
+.btnMenos {
+  background: linear-gradient(grey, red);
+  width: 10%;
+  font-size: 20px;
+  border-radius: 10px;
+  margin-left: 1px;
+  margin-top: 15px;
+}
+.inputP1 {
+  width: 30px;
+  height: 30px;
+}
+.btnMas {
+  background: linear-gradient(grey, red);
+  width: 10%;
+  font-size: 20px;
+  border-radius: 10px;
+}
+
+.btnPoster1:hover {
+  background: orange;
+}
+.btnMas:hover {
+  background: orange;
+}
+
+.btnMenos:hover {
+  background: orange;
+}
+
+.ajustar2fila {
+  margin-top: 20px;
+}
+/*****FIN****/
+
+/**INICIO SECCION FOOTER***/
+.footerArea {
+  background-color: rgba(245, 245, 220, 0.82);
+  opacity: 60%;
+  max-width: 100%;
+  height: auto;
+}
+
+.claseH3 {
+  background: linear-gradient(grey, grey, grey, grey) text;
+  color: transparent;
+  font-size: 30px;
+}
+
+.btnForm {
+  background: rgba(128, 128, 128, 0.286);
+  width: 10%;
+  font-size: 20px;
+  border-radius: 30px;
+  border: 2px solid black;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 13px;
+}
+.btnForm2 {
+  background: rgba(255, 255, 255, 0.313);
+  width: 10%;
+  font-size: 20px;
+  border-radius: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 13px;
+  opacity: 80%;
+  color: black;
+}
+
+.footerArea h3 {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  font-size: 38px;
+}
+
+.subContainerForm1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.subContainerForm1 input {
+  width: 350px;
+  border-radius: 20px;
+}
+
+.subContainerForm2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.subContainerForm2 input {
+  width: 350px;
+  border-radius: 20px;
+}
+
+.subContainerForm3 {
+  display: flex;
+  flex-direction: column;
+}
+
+.containerPri {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+  height: auto;
+  gap: 10px;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.containerPri2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.subContainerForm3 textarea {
+  border-radius: 20px;
+  border: 2px solid black;
+  width: 56%;
+  height: 100px;
+}
+
+.subContainerForm3 label,
+textarea {
+  position: relative;
+  left: 22%;
+}
+
+.footerArea2 {
+  /*background-color: rgba(135, 140, 235, 0.552);*/
+  background-color: rgba(0, 0, 0, 0.17);
+  width: 100%;
+}
+
+.cont1Footer2 {
+  display: flex;
+  flex-direction: row;
+  padding-top: 20px;
+}
+
+.cont2Footer2 {
+  display: flex;
+  flex-direction: row;
+}
+
+.cont3Footer2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 2%;
+}
+
+.footerArea2 img {
+  width: 30px;
+  height: 30px;
+}
+.redes {
+  font-size: 20px;
+  margin-top: 5px;
+  color: rgb(47, 89, 81);
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+
+.cont4_1Footer2 p {
+  font-size: 20px;
+  color: rgb(47, 89, 81);
+  font-weight: bold;
+  line-height: 1px;
+  margin-top: 39px;
+}
+
+.footerArea2 h4 {
+  font-size: 25px;
+}
+
+.footerArea2 h5 {
+  font-size: 25px;
+  position: relative;
+  top: 10px;
+}
+
+/*
+.footerArea2 p {
+  font-size: 25px;
+  font-weight: bold;
+}*/
+
+.cont4_1Footer2 {
+  display: flex;
+  flex-direction: column;
+  margin-top: 27px;
+  line-height: 35px;
+  align-items: center;
+}
+
+.cont4Footer2 {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+  height: auto;
+  justify-content: center;
+  gap: 250px;
+}
+
+/*@media (min-width: 375px) and (max-width: 576px)*/
+@media (max-width: 576px) {
+  .navList ul {
+    background-color: #272d37;
+    opacity: 0.7;
+    border-radius: 0 0 20px 20px;
+    border: 5px solid blue;
+    border-top: none;
+    width: 80%;
+    height: calc(100vh-80px);
+    position: absolute;
+    top: 80px;
+    left: 9%;
+    flex-direction: column;
+    padding: 10px;
+    font-size: 20px;
+    display: none;
+  }
+  .navList i {
+    display: block;
+  }
+
+  #toogle-menu:checked ~ .navBar {
+    display: flex;
+  }
+  .navList {
+    margin-right: 4rem;
+  }
+
+  .contenedor1 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contenedor2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  h2 {
+    text-align: center;
+  }
+
+  .contenedor1 h3 {
+    font-size: 25px;
+  }
+
+  div a {
+    padding: 20px;
+  }
+
+  .contenedor1 img {
+    margin-top: 20px;
+  }
+
+  .contenedor2 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  div p {
+    text-align: center;
+  }
+
+  .contenedor2 img {
+    position: relative;
+    bottom: 25px;
+  }
+  .container3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .foto1 {
+    width: 300px;
+    height: 400px;
+    background-color: grey;
+    border-radius: 20px;
+  }
+
+  .img3 {
+    width: 300px;
+    height: 300px;
+    border-radius: 20px 20px 0 0;
+  }
+  .containerPri {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+  }
+
+  .subContainerForm1 {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+  .subContainerForm1 input {
+    width: 250px;
+  }
+
+  .subContainerForm2 {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+  .subContainerForm2 input {
+    width: 250px;
+  }
+
+  .containerPri2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .subContainerForm3 textarea {
+    width: 250px;
+  }
+
+  .subContainerForm3 label,
+  textarea {
+    position: relative;
+    left: 0%;
+  }
+
+  .btnForm {
+    width: 40%;
+  }
+
+  .cont4Footer2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 950px) {
+  .cont4Footer2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
+  .cont4_1Footer2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+  }
+  .containerPri2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+  }
+
+  .subContainerForm3 textarea {
+    width: 516px;
+    overflow: hidden;
+  }
+
+  .subContainerForm3 label,
+  textarea {
+    position: relative;
+    left: 0%;
+  }
+}
+
+@media (min-width: 912px) {
+  .containerPri2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+  }
+
+  .subContainerForm3 textarea {
+    width: 516px;
+    overflow: hidden;
+  }
+
+  .subContainerForm3 label,
+  textarea {
+    position: relative;
+    left: 0%;
+  }
+}
+
+@media (max-width: 992px) {
+  .footerArea2 h5 {
+    position: relative;
+    top: 1px;
+  }
+  .cont4_1Footer2 p {
+    margin-top: 33px;
+  }
+  .cont4_1Footer2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+  }
+  .btnForm {
+    width: 40%;
+  }
+  .img3 {
+    width: 300px;
+    height: 300px;
+    border-radius: 20px 20px 0 0;
+  }
+  .foto1 {
+    width: 300px;
+    height: 400px;
+    background-color: grey;
+    border-radius: 20px;
+  }
+  div p {
+    text-align: center;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  h2 {
+    text-align: center;
+  }
+  .contenedor1 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contenedor1 img {
+    margin-top: 20px;
+  }
+
+  .contenedor2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contenedor1 h3 {
+    font-size: 25px;
+  }
+
+  div a {
+    padding: 13px;
+  }
+
+  .contenedor2 img {
+    position: relative;
+    bottom: 25px;
+  }
+  .container3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  .subContainerForm1 {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+  .subContainerForm1 input {
+    width: 250px;
+  }
+
+  .subContainerForm2 {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+  .subContainerForm2 input {
+    width: 250px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1024px) {
+  .cont4_1Footer2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+  }
+  .containerPri2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+  }
+
+  .subContainerForm3 textarea {
+    width: 715px;
+    overflow: hidden;
+  }
+
+  .subContainerForm3 label,
+  textarea {
+    position: relative;
+    left: 0%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .footerArea2 h5 {
+    position: relative;
+    top: 1px;
+  }
+  .cont4_1Footer2 p {
+    margin-top: 33px;
+  }
+
+  .cont4_1Footer2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  .containerPri2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+  }
+
+  .subContainerForm3 textarea {
+    width: 715px;
+    overflow: hidden;
+  }
+
+  .subContainerForm3 label,
+  textarea {
+    position: relative;
+    left: 0%;
+  }
+}
