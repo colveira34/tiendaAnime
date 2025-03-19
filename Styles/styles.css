@@ -123,10 +123,10 @@ div a {
   color: white;
   text-decoration: none;
   background: linear-gradient(grey, red);
-  padding: 15px;
+  padding: 20px;
   border: 1px solid white;
   border-radius: 45px;
-  font-size: 12px;
+  font-size: 15px;
   position: relative;
   top: 25px;
 }
