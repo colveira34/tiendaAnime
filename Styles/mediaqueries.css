@@ -53,6 +53,9 @@
 
   div a {
     padding: 20px;
+    font-size: 17px;
+    border: 3px solid white;
+    border-radius: 35px;
   }
 
   .contenedor1 img {
@@ -201,6 +204,21 @@
 }
 
 @media (max-width: 992px) {
+  div a {
+    padding: 20px;
+    font-size: 17px;
+    border: 3px solid white;
+    border-radius: 35px;
+  }
+
+  .cont4Footer2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
   .footerArea2 h5 {
     position: relative;
     top: 1px;
@@ -256,10 +274,6 @@
 
   .contenedor1 h3 {
     font-size: 25px;
-  }
-
-  div a {
-    padding: 13px;
   }
 
   .contenedor2 img {
