@@ -25,9 +25,15 @@
           <label for="toogle-menu"><i class="fa-solid fa-bars"></i></label>
           <input type="checkbox" id="toogle-menu" />
           <ul class="navBar">
-            <li>Home</li>
-            <li>Acerca De</li>
-            <li>Contacto</li>
+            <a href="#home">
+              <li>Home</li>
+            </a>
+            <a href="#SobreNosotros">
+              <li>Acerca De</li>
+            </a>
+            <a href="#contacto">
+              <li>Contacto</li>
+            </a>
           </ul>
         </nav>
       </header>
@@ -36,13 +42,13 @@
           <source src="./Img/Img3Goku.mp4" type="video/mp4" />
         </video>
 
-        <h1>BIENVENIDO A TIENDA ANIME</h1>
+        <h1 id="home">BIENVENIDO A TIENDA ANIME</h1>
         <div class="contenedor1">
           <div>
             <h3>❑ VENI A DISFRUTAR DE TUS SERIES FAVORITAS</h3>
             <h3>❑ SUSCRIBITE A NUESTRA PLATAFORMA</h3>
             <h3>❑ LLEVATE POSTERS DE TUS SERIES FAVORITAS</h3>
-            <a href="#beneficios">¿QUERES SABER MAS?</a>
+            <a href="#contacto">¿QUERES SABER MAS?</a>
           </div>
 
           <img
@@ -52,7 +58,7 @@
         </div>
       </section>
 
-      <section class="fondoContenedor">
+      <section id="SobreNosotros" class="fondoContenedor">
         <h2>SOBRE NOSOTROS</h2>
         <div class="contenedor2">
           <p>
@@ -167,7 +173,7 @@
       </section>
     </main>
 
-    <footer class="footerArea">
+    <footer id="contacto" class="footerArea">
       <form>
         <div class="containerPri2">
           <h3>¡Hablemos!</h3>
@@ -212,7 +218,6 @@
 
         <footer class="footerCopyRight copyRightFooter">
           <p>Creado por tiendaanime</p>
-
           <p>
             Copyright©2025 Todos los derechos están reservados para el autor
           </p>
